@@ -1,3 +1,5 @@
+// using simple functions
+
 function createNewPerson(name){
     const obj = {};
     obj.name = name;
@@ -10,4 +12,3 @@ function createNewPerson(name){
 const salva = createNewPerson('Salva')
 salva.name;
 salva.greeting();
-
