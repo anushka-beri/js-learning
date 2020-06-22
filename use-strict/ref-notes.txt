@@ -1,0 +1,14 @@
+Use Strict
+
+It makes debugging easier
+
+1. By enabling strict mode, we enter into a restricted variant of JavaScript that will not tolerate the usage of variables before they are declared.
+2. Please make sure that "use strict" is at the top of your scripts, otherwise strict mode may not be enabled.
+3. If we want to invoke strict mode only in functions instead of whole script file, just use 'use script' in top of that function.
+4. Cannot use reserved keyword for example: let, private, protected, public, static
+5. Error when variables are attempted to be deleted using the delete operator.
+6. eval() of strict mode code does not introduce new variables into the surrounding scope. 
+
+
+Meanings :
+1. eval() - The argument of the eval() function is a string. If the string represents an expression, eval() evaluates the expression. If the argument represents one or more JavaScript statements, eval() evaluates the statements.
