@@ -6,7 +6,7 @@ It makes debugging easier
 2. Please make sure that "use strict" is at the top of your scripts, otherwise strict mode may not be enabled.
 3. If we want to invoke strict mode only in functions instead of whole script file, just use 'use script' in top of that function.
 4. Cannot use reserved keyword for example: let, private, protected, public, static
-5. Error when variables are attempted to be deleted using the delete operator.
+5. Error means -  when variables are attempted to be deleted using the delete operator(deprecated).
 6. eval() of strict mode code does not introduce new variables into the surrounding scope. 
 
 
